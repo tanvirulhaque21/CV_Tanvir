@@ -1,0 +1,276 @@
+.container{
+    width: 1080px;
+    height: 1080px;
+    margin: auto;
+}
+
+.main{
+    width: 100%;
+    height: 1080px;
+}
+
+.headder{
+    width: 100%;
+    height: 150px;
+    background-color: #f2f3f5;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.topleft{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 2%;
+}
+
+.topright{
+    width: 42%;
+    height: auto;
+    float: left;
+    padding: 2%;
+}
+
+.topleft .name{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0px;
+    opacity: .7;
+}
+
+.topleft .designation{
+    font-size: 22px;
+    color: #000000;
+    opacity: .5;
+    clear: both;
+    margin: 0px;
+}
+
+.topleft hr{
+    height: 5px;
+    width: 108px;
+    background-color: black;
+    float: left;
+    margin-top: 5px;
+    border-radius: 100px;
+    opacity: .5;
+}
+
+.topright p{
+    font-size: 22px;
+    opacity: .7;
+    margin: 5px 0px 0px 0px;
+    text-align: right;
+}
+
+.topright span{
+    font-weight: bolder;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.bodyleft{
+    width: 30%;
+    height: auto;
+    background-color: #f2f3f5;
+    padding: 2%;
+    float: left;
+}
+
+.bodyright{
+    width: 60%;
+    height: auto;
+    float: left;
+    background-color: #f2f3f5;
+    margin-left: 2%;
+    padding: 2%;
+    padding-bottom: 38px;
+}
+
+.bodyleft .profilephoto{
+    width: 75%;
+    height: auto;
+    border-radius: 300px;
+}
+
+.tag{
+    font-size: 22px;
+    font-weight: bold;
+    opacity: .7;
+    margin: 20px 0px 0px 0px;
+    clear: both;
+}
+
+.bodyleft hr{
+    height: 5px;
+    width: 50px;
+    background-color: black;
+    float: left;
+    margin-top: 5px;
+    border-radius: 100px;
+    opacity: .5;
+    clear: both;
+}
+
+.bodyleft .profiletext{
+    clear: both;
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 16px;
+    opacity: .7;
+    line-height: 20px;
+}
+
+.bodyleft .educationtext{
+    clear: both;
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 16px;
+    opacity: .7;
+    line-height: 20px;
+}
+
+.bodyleft .educationtext span{
+    font-weight: bolder;
+}
+
+.bodyleft .hobbiestext{
+    clear: both;
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 16px;
+    opacity: .7;
+    line-height: 20px;
+}
+
+.bodyleft .hobbiestext span{
+    font-weight: bolder;
+}
+
+.bodyright .worktext{
+    clear: both;
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 16px;
+    opacity: .7;
+    line-height: 20px;
+}
+
+.bodyright hr{
+    height: 5px;
+    width: 50px;
+    background-color: black;
+    float: left;
+    margin-top: 5px;
+    border-radius: 100px;
+    opacity: .5;
+    clear: both;
+}
+
+.bodyright .worktext span{
+    font-weight: bolder;
+}
+
+.bodyright .skillsdiv{
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+}
+
+.bodyright .skillleft{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.bodyright .skillright{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+
+.bodyright .skillright .slot{
+    width: 100%;
+    height: 20px;
+    background-color: #b4b4b4;
+    margin-top: 35px;
+    border-radius: 100px;
+}
+
+.bodyright .skillright .slot .fill{
+    background-color: #49494a;
+    border-radius: 100px;
+}
+
+.bodyright .skillright .slot .fill span{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+
+.bodyright .skillleft p{
+    font-size: 16px;
+    font-weight: bolder;
+    opacity: .7;  
+    margin-top: 36px;
+}
+
+.biodata{
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+}
+
+.biodata .left{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.biodata .right{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+
+.biodata .left p{
+    font-size: 16px;
+    font-weight: bolder;
+    opacity: .7;  
+    margin-top: 25px;
+}
+
+.biodata .right p{
+    font-size: 16px;
+    opacity: .7;  
+    margin-top: 25px;
+}
+
+.footer{
+    width: 96%;
+    height: auto;
+    float: left;clear: both;
+    background-color: #f2f3f5;
+    margin-top: 20px;
+    padding: 2%;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    margin: 10px;
+}
+
+.footer p{
+    color: black;
+    opacity: .7;
+}
+
